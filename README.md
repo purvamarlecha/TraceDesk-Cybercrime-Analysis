@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TraceDesk — Cybercrime Analysis Workspace
 
 A student-friendly Flask + SQLite web application that combines official Indian cybercrime statistics with account-based incident tracking and explainable URL triage.
@@ -73,3 +74,7 @@ cybercrime_analysis/
 
 ## Safety
 Do not enter real passwords you use elsewhere, full financial identifiers or unredacted victim details. For actual cybercrime in India, use https://cybercrime.gov.in/ or call 1930 for financial cyber fraud assistance.
+=======
+# TraceDesk-Cybercrime-Analysis
+TraceDesk is a Flask-based cybercrime analysis system that helps users report and track cybercrime incidents, analyze suspicious URLs, maintain investigation records, and export case data. Built using Python, SQLite, HTML, and CSS.
+>>>>>>> f7245af3d559c83ec3a0911a9416bc04fea72c49
