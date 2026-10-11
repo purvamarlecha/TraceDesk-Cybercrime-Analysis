@@ -11,6 +11,10 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DB = os.path.join(ROOT, "cybercrime.db")
 DATA = os.path.join(ROOT, "data", "ncrb_national_cases.csv")
 
+@app.route("/")
+def home():
+    return "Cybercrime Analysis Project is Live!"
+
 def connect():
     con = sqlite3.connect(DB)
     con.row_factory = sqlite3.Row
